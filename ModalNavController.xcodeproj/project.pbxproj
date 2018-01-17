@@ -12,6 +12,8 @@
 		C403E3B8200FEA8A0092658B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C403E3B6200FEA8A0092658B /* Main.storyboard */; };
 		C403E3BA200FEA8A0092658B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C403E3B9200FEA8A0092658B /* Assets.xcassets */; };
 		C403E3BD200FEA8A0092658B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C403E3BB200FEA8A0092658B /* LaunchScreen.storyboard */; };
+		C403E3C5200FEDA20092658B /* VC2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403E3C4200FEDA20092658B /* VC2ViewController.swift */; };
+		C403E3C7200FEE460092658B /* VC1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403E3C6200FEE460092658B /* VC1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C403E3B9200FEA8A0092658B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C403E3BC200FEA8A0092658B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C403E3BE200FEA8A0092658B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C403E3C4200FEDA20092658B /* VC2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2ViewController.swift; sourceTree = "<group>"; };
+		C403E3C6200FEE460092658B /* VC1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C403E3B9200FEA8A0092658B /* Assets.xcassets */,
 				C403E3BB200FEA8A0092658B /* LaunchScreen.storyboard */,
 				C403E3BE200FEA8A0092658B /* Info.plist */,
+				C403E3C4200FEDA20092658B /* VC2ViewController.swift */,
+				C403E3C6200FEE460092658B /* VC1ViewController.swift */,
 			);
 			path = ModalNavController;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C403E3C5200FEDA20092658B /* VC2ViewController.swift in Sources */,
 				C403E3B5200FEA8A0092658B /* ViewController.swift in Sources */,
 				C403E3B3200FEA8A0092658B /* AppDelegate.swift in Sources */,
+				C403E3C7200FEE460092658B /* VC1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
